@@ -1,0 +1,62 @@
+[
+  {
+    "type": "select",
+    "id": "background_color",
+    "label": "Background Color",
+    "options": [
+      {
+        "value": "red",
+        "label": "Red"
+      },
+      {
+        "value": "green",
+        "label": "Green"
+      },
+      {
+        "value": "blue",
+        "label": "Blue"
+      },
+      {
+        "value": "yellow",
+        "label": "Yellow"
+      },
+      {
+        "value": "black",
+        "label": "Black"
+      },
+      {
+        "value": "white",
+        "label": "White"
+      }
+    ],
+    "default": "white"
+  },
+  {
+    "type": "number",
+    "id": "border",
+    "label": "Border",
+    "default": 1,
+    "min": 0,
+    "max": 10
+  },
+  {
+    "type": "range",
+    "id": "width",
+    "label": "Width",
+    "min": 100,
+    "max": 1000,
+    "step": 10,
+    "default": 500,
+    "unit": "px"
+  },
+  {
+    "type": "range",
+    "id": "height",
+    "label": "Height",
+    "min": 100,
+    "max": 1000,
+    "step": 10,
+    "default": 300,
+    "unit": "px"
+  }
+]
