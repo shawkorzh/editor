@@ -1,0 +1,9 @@
+{
+  "editor.quickSuggestions": { "strings": true },
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "cSpell.words": ["craco"]
+}
