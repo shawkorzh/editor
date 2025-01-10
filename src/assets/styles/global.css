@@ -136,3 +136,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
+
+.app-container {
+  display: flex;
+  height: 100vh;
+}
